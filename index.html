@@ -1,0 +1,41 @@
+<html>
+
+<head>
+
+    <style>
+        canvas {
+            border: white 1px solid;
+        }
+    </style>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDahU7RoyLeY_Qs_zOoPkTd3-E7iE20mbE",
+            authDomain: "pacman-bc51b.firebaseapp.com",
+            databaseURL: "https://pacman-bc51b.firebaseio.com",
+            projectId: "pacman-bc51b",
+            storageBucket: "",
+            messagingSenderId: "267164456667",
+            appId: "1:267164456667:web:51b4d9383980b61ccc9efe"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+</head>
+
+<body style=" background: black;">
+    <canvas id="canvas" width="320" height="320"></canvas>
+
+    <script src="js/game.js">
+    </script>
+</body>
+
+</html>
